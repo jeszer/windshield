@@ -243,7 +243,7 @@ class Assettable extends ConsumerWidget {
               animation: true,
               animationDuration: 2000,
               lineWidth: 6.5,
-              center: Text('xx.x%',
+              center: const Text('xx.x%',
                   style: TextStyle(color: Colors.white, fontSize: 11)),
               backgroundColor: const Color(0x80ffffff),
             ),
