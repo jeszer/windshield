@@ -140,7 +140,7 @@ REST_FRAMEWORK = {
     )
 }
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://localhost:50522"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://localhost:50522","http://192.168.1.9"]
 
 AUTH_USER_MODEL = 'user.NewUser'
 

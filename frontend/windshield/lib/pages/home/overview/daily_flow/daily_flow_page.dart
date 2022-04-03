@@ -130,6 +130,7 @@ class DailyList extends ConsumerWidget {
                                     25.0, 5.0, 0.0, 0.0),
                                 child: Text(
                                   '$incTotal',
+                                  
                                   style: const TextStyle(
                                       color: Colors.white,
                                       fontSize: 30,

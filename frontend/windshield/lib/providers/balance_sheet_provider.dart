@@ -45,6 +45,8 @@ class BalanceSheetProvider extends ChangeNotifier {
   bool _needFetchAPI = false;
   bool get needFetchAPI => _needFetchAPI;
 
+  get baltotal => null;
+
   void setBs(BSheetBalance value) {
     _bs = value;
   }
