@@ -269,7 +269,8 @@ class Api extends ChangeNotifier {
 
   Future<List<StmntCategory>> getAllCategories(bool asUsed) async {
     try {
-      final res = await dio.get('/api/categories/?as_used=$asUsed');
+      final res = await dio
+          .get('/api/categories/?as_used=${asUsed ? "True" : "False"}');
       final data =
           (res.data as List).map((i) => StmntCategory.fromJson(i)).toList();
       return data;
